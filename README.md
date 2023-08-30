@@ -42,13 +42,13 @@ The proposed unsupervised deep learning in sinogram domain for sparse-view CT. T
 
 <div align="center"><img width="800" alt="image" src="https://github.com/yqx7150/GMSD/assets/26964726/89d91942-0925-4571-b001-283eef235825"> </div>
     
- (a)                                    (b)                                      (c)                                      (d)                                   (e) 
+ (a)(b)     (c)(d)(e) 
  
 Reconstruction results from 120 views using different methods. (a) The reference image versus the images reconstructed by (b) FBP, (c) FISTA-TV, (d) SART-TV, and (e) GMSD. The display windows are [-240,360]. The second row is residuals between the reference images and reconstruction images.
 
 <div align="center"><img width="800" alt="image" src="https://github.com/yqx7150/GMSD/assets/26964726/531efef1-7f49-4e24-b3bc-8559565c1529"> </div>
     
- (a)                                     (b)                                      (c)                                      (d)                                    (e)                                    (f)
+ (a)(b)(c)(d)(e)(f)
  
 Reconstruction images from 100 views using different methods. (a) The reference image versus the images reconstructed by (b) FBP, (c) U-Net, (d) FBPConvNet, (e) DRONE, and (f) GMSD. The second row is residuals between the reference images and reconstruction images.
 
