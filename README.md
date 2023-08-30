@@ -27,7 +27,7 @@ test默认调用exp_demo下的模型
 ```
 
 ## Graphical representation
-```bash
+
 
 <div align="center"><img width="500" alt="image" src="https://github.com/yqx7150/GMSD/assets/26964726/89bc9c85-03d2-4e59-9d19-f03ee02584eb"> </div>
 
@@ -43,7 +43,7 @@ The proposed unsupervised deep learning in sinogram domain for sparse-view CT. T
 
 <div align="center"><img width="800" alt="image" src="https://github.com/yqx7150/GMSD/assets/26964726/89d91942-0925-4571-b001-283eef235825"> </div>
     
- (a) (b)     (c)     (d)     (e) 
+ (a)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (b)     (c)     (d)     (e) 
  
 Reconstruction results from 120 views using different methods. (a) The reference image versus the images reconstructed by (b) FBP, (c) FISTA-TV, (d) SART-TV, and (e) GMSD. The display windows are [-240,360]. The second row is residuals between the reference images and reconstruction images.
 
@@ -53,7 +53,7 @@ Reconstruction results from 120 views using different methods. (a) The reference
  
 Reconstruction images from 100 views using different methods. (a) The reference image versus the images reconstructed by (b) FBP, (c) U-Net, (d) FBPConvNet, (e) DRONE, and (f) GMSD. The second row is residuals between the reference images and reconstruction images.
 
-```
+
 ## Test Data
 In file './Test_CT', 12 sparse-view CT data from AAPM Challenge Data Study.
 
