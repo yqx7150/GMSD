@@ -27,21 +27,27 @@ test默认调用exp_demo下的模型
 ```
 
 ## Graphical representation
-##<img width="244" alt="image" src="https://github.com/yqx7150/GMSD/assets/26964726/89bc9c85-03d2-4e59-9d19-f03ee02584eb">
+
+<img width="244" alt="image" src="https://github.com/yqx7150/GMSD/assets/26964726/89bc9c85-03d2-4e59-9d19-f03ee02584eb">
+
 Linear measurement processes for sparse-view CT.
 
-##<img width="226" alt="image" src="https://github.com/yqx7150/GMSD/assets/26964726/6b3e8c35-b026-448f-8465-b940ec71e85a">
+<img width="226" alt="image" src="https://github.com/yqx7150/GMSD/assets/26964726/6b3e8c35-b026-448f-8465-b940ec71e85a">
+
 Visualization of the intermediate reconstruction process of GMSD. As the level of artificial noise becomes smaller, the reconstruction results tend to ground-truth data.
 
-##<img width="420" alt="image" src="https://github.com/yqx7150/GMSD/assets/26964726/761bf7db-8e92-4248-9f1b-715f38dc1966">
+<img width="420" alt="image" src="https://github.com/yqx7150/GMSD/assets/26964726/761bf7db-8e92-4248-9f1b-715f38dc1966">
+
 The proposed unsupervised deep learning in sinogram domain for sparse-view CT. Top: Training stage to learn the gradient distribution via denoising score matching. Bottom: Iterate between numerical SDE solver and data-consistency step to achieve reconstruction. DC stands for the data-consistency items.
 
-##<img width="411" alt="image" src="https://github.com/yqx7150/GMSD/assets/26964726/89d91942-0925-4571-b001-283eef235825">
+<img width="411" alt="image" src="https://github.com/yqx7150/GMSD/assets/26964726/89d91942-0925-4571-b001-283eef235825">
  (a)                                    (b)                                      (c)                                      (d)                                   (e) 
+ 
 Reconstruction results from 120 views using different methods. (a) The reference image versus the images reconstructed by (b) FBP, (c) FISTA-TV, (d) SART-TV, and (e) GMSD. The display windows are [-240,360]. The second row is residuals between the reference images and reconstruction images.
 
-##<img width="502" alt="image" src="https://github.com/yqx7150/GMSD/assets/26964726/531efef1-7f49-4e24-b3bc-8559565c1529">
+<img width="502" alt="image" src="https://github.com/yqx7150/GMSD/assets/26964726/531efef1-7f49-4e24-b3bc-8559565c1529">
  (a)                                     (b)                                      (c)                                      (d)                                    (e)                                    (f)
+ 
 Reconstruction images from 100 views using different methods. (a) The reference image versus the images reconstructed by (b) FBP, (c) U-Net, (d) FBPConvNet, (e) DRONE, and (f) GMSD. The second row is residuals between the reference images and reconstruction images.
 
 ## Test Data
