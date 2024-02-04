@@ -4,8 +4,9 @@
 
 **Authors**: Bing Guan; Cailian Yang; Liu Zhang; Shanzhou Niu; Minghui Zhang; Yuhao Wang; Weiwen Wu; Qiegen Liu          
 
-IEEE Transactions on Radiation and Plasma Medical Sciences         
-https://ieeexplore.ieee.org/document/10233041  
+IEEE Transactions on Radiation and Plasma Medical Sciences       
+Vol. 8, no. 2, pp. 195-207, 2024.     
+https://ieeexplore.ieee.org/document/10233041      
 
 The radiation dose in computed tomography (CT) examinations is harmful for patients but can be significantly reduced by intuitively decreasing the number of projection views. Reducing projection views usually leads to severe aliasing artifacts in reconstructed images. Previous deep learning (DL) techniques with sparse-view data require sparse-view/full-view CT image pairs to train the network with supervised manners. When the number of projection view changes, the DL network should be retrained with updated sparse-view/full-view CT image pairs. To relieve this limitation, we present a fully unsupervised score-based generative model in sinogram domain for sparse-view CT reconstruction. Specifically, we first train a score-based generative model on full-view sinogram data and use multi-channel strategy to form high-dimensional tensor as the network input to capture their prior distribution. Then, at the inference stage, the stochastic differential equation (SDE) solver and data-consistency step were performed iteratively to achieve full-view projection. Filtered back-projection (FBP) algorithm was used to achieve the final image reconstruction. Qualitative and quantitative studies were implemented to evaluate the presented method with several CT data. Experimental results demonstrated that our method achieved comparable or better performance than the supervised learning counterparts. 
     
