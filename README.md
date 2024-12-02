@@ -36,7 +36,7 @@ test默认调用exp_demo下的模型
 
 <div align="center"><img width="500" alt="image" src="https://github.com/yqx7150/GMSD/assets/26964726/6b3e8c35-b026-448f-8465-b940ec71e85a"> </div>
 
-<div align="left">Visualization of the intermediate reconstruction process of GMSD. As the level of artificial noise becomes smaller, the reconstruction results tend to ground-truth data.
+Visualization of the intermediate reconstruction process of GMSD. As the level of artificial noise becomes smaller, the reconstruction results tend to ground-truth data.
 
 <div align="center"><img width="800" alt="image" src="https://github.com/yqx7150/GMSD/assets/26964726/761bf7db-8e92-4248-9f1b-715f38dc1966"> </div>
 
